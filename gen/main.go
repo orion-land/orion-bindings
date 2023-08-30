@@ -6,14 +6,15 @@ import (
 	"flag"
 	"log"
 	"os"
+	"os/exec"
 
 	"path"
 	"path/filepath"
 	"strings"
 	"text/template"
 
-	"github.com/orion-land/orion-bindings/foundry"
 	"github.com/orion-land/orion-bindings/ast"
+	"github.com/orion-land/orion-bindings/foundry"
 )
 
 type flags struct {
