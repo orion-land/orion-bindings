@@ -1,6 +1,6 @@
 package predeploys
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/scroll-tech/go-ethereum/common"
 
 const (
 	L2ToL1MessagePasser           = "0x4200000000000000000000000000000000000016"

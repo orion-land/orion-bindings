@@ -1,6 +1,6 @@
 package predeploys
 
-import "github.com/ethereum/go-ethereum/common"
+import "github.com/scroll-tech/go-ethereum/common"
 
 const (
 	DevL2OutputOracle               = "0x6900000000000000000000000000000000000000"

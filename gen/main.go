@@ -6,14 +6,14 @@ import (
 	"flag"
 	"log"
 	"os"
-	"os/exec"
+
 	"path"
 	"path/filepath"
 	"strings"
 	"text/template"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/ast"
-	"github.com/ethereum-optimism/optimism/op-bindings/foundry"
+	"github.com/orion-land/orion-bindings/foundry"
+	"github.com/orion-land/orion-bindings/ast"
 )
 
 type flags struct {
@@ -167,7 +167,7 @@ package {{.Package}}
 import (
 	"encoding/json"
 
-	"github.com/ethereum-optimism/optimism/op-bindings/solc"
+	"github.com/orion-land/orion-bindings/solc"
 )
 
 const {{.Name}}StorageLayoutJSON = "{{.StorageLayout}}"

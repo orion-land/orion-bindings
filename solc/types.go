@@ -3,7 +3,7 @@ package solc
 import (
 	"encoding/json"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/scroll-tech/go-ethereum/accounts/abi"
 )
 
 type CompilerInput struct {
